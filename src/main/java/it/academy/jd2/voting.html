@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voting</title>
+    <style>
+        body{
+           background-color: rgb(255, 255, 128);
+        }
+    </style>
+</head>
+<body>
+<form name="loginForm" method="post" action="http://134.122.83.232:8080/VotingServlet-1.0-SNAPSHOT/singer-genres">
+
+    <p><label>Music artists:</label>
+        <label>
+            <input type="radio" name="singer" value="Lady Gaga"/>
+        </label> Lady Gaga
+        <label>
+            <input type="radio" name="singer" value="Rihanna"/>
+        </label> Rihanna
+        <label>
+            <input type="radio" name="singer" value="Selena Gomez"/>
+        </label> Selena Gomez
+        <label>
+            <input type="radio" name="singer" value="Miyagi"/>
+        </label> Miyagi
+    </p><br/>
+
+    <p>Your favorite genres of music:
+        <br/>
+        <label>
+            <input type="checkbox" name="genres" value="Heavy" />
+        </label> Heavy Metal
+        <label>
+            <input type="checkbox" name="genres" value="Folk" />
+        </label> Folk
+        <label>
+            <input type="checkbox" name="genres" value="R&B" />
+        </label> R&B/Soul
+        <label>
+            <input type="checkbox" name="genres" value="Classical" />
+        </label> Classical
+        <label>
+            <input type="checkbox" name="genres" value="Jazz" />
+        </label> Jazz
+        <label>
+            <input type="checkbox" name="genres" value="Country" />
+        </label>Country
+        <label>
+            <input type="checkbox" name="genres" value="Electronic" />
+        </label> Electronic Dance Music (EDM)
+        <label>
+            <input type="checkbox" name="genres" value="Rap" />
+        </label> Hip-hop/Rap
+        <label>
+            <input type="checkbox" name="genres" value="Rock" />
+        </label> Rock
+        <label>
+            <input type="checkbox" name="genres" value="Pop" />
+        </label> Pop</p>
+
+
+    <p>Who is your favorite performer and why?
+        <label>
+            <textarea name="message" value = message></textarea>
+        </label></p>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
